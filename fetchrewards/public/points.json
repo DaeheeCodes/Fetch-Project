@@ -1,18 +1,21 @@
 [{
 	"payer": "DANNON",
 	"points": "1000",
-	"temestamp": "2020-11-01T14:00:00Z"
+	"timestamp": "2020-11-01T14:00:00Z"
 },{
 	"payer": "UNILEVER",
 	"points": "2000",
-	"temestamp": "2020-11-02T14:00:00Z"
+	"timestamp": "2020-11-04T14:00:00Z"
 },{
 	"payer": "MILLER COORS",
 	"points": "1000",
-	"temestamp": "2020-11-03T14:00:00Z"
+	"timestamp": "2020-11-03T14:00:00Z"
 },{
 	"payer": "DANNON",
-	"points": "1000",
-	"temestamp": "2020-11-04T14:00:00Z"
-}
-]
+	"points": "500",
+	"timestamp": "2020-11-02T14:00:00Z"
+},{
+	"payer": "UNILEVER",
+	"points": "-200",
+	"timestamp": "2020-11-05T14:00:00Z"
+}]

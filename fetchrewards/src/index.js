@@ -8,7 +8,6 @@ import {
 } from "react-router-dom";
 import {render} from 'react-dom';
 import InsideSidebar from './InsideSidebar.js';
-import Admin from './pages/admin.js';
 import Shop from './pages/shop.js';
 
 
@@ -29,7 +28,6 @@ render(
       <Route element={<InsideSidebar />} className="contents">
       <Route exact path="/" element={<Shop />}/> 
           <Route path="/shop/*" element={<Shop />} />
-          <Route path="/admin/*" element={<Admin /> }/>
     </Route>
     </Routes>
   </BrowserRouter>,

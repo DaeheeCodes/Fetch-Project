@@ -1,14 +1,15 @@
-import React, { useEffect, useState } from "react";
-import axios from 'axios';
+import React from "react";
 // We import NavLink to utilize the react router.
 import { NavLink } from "react-router-dom";
- 
+
 // Here, we display our Navbar
 export default function Navbar() {
 
+
+/*originally wnated to render remaining points in the navbar but decided not to for 
+more capababilities inside the uesr interated app
     const [records, setRecords] = useState([]);
     
-    // This method fetches the records from the "database", stored in local library public.
     useEffect(() => {
      async function getRecords() {
        const response = await axios.get("points.json");
@@ -25,21 +26,20 @@ export default function Navbar() {
         return sum + Math.floor(record.points);
     }, 0);
     }
-
+ */
 
 
 
  return (
    <div>
      <nav>
-       <NavLink to="/admin">
+       <NavLink to="/shop">
        <img style={{"width" : 25 + '%'}} src="https://www.fetchrewards.com/assets/images/logos/header-logo.png" alt="sometext"></img>
        </NavLink>
        <div>
          <ul>
-           <h4> Your Total Points! {remainingpoints()}</h4>
            <li>
-             <NavLink to="/admin/create">
+             <NavLink to="/shop/changelog">
                View Your Points Log!
              </NavLink>
            </li>
