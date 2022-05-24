@@ -1,0 +1,47 @@
+
+
+.link {
+  display: flex;
+}
+
+.sidebar{
+  justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+    padding: 10px 10px;
+    box-shadow: 0 0 0.7px white;
+    background-color: black;
+    position:absolute;
+    color: beige;
+    background-size: cover;
+    background-position: bottom;
+    z-index: 5;
+    width: 10%;
+    box-shadow: 0 0 0.7px white;
+}
+
+  .title {
+      overflow: hidden;
+      padding-left: 0px;
+      padding-top: 10px;
+      font-size: 30px;
+  }
+
+
+  .icon{
+    margin-left: -10vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align:center;
+  }
+
+  .icon:hover{
+    color: burlywood;
+    transition: color 100ms ease-out;
+  }
+
+

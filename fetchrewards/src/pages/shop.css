@@ -1,0 +1,8 @@
+.admincontainer {
+    width: 90vw;
+    height: 90vh;
+    margin-left: 20%;
+    position: relative;
+    background-color: aliceblue;
+    overflow: hidden;
+}

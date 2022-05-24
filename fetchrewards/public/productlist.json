@@ -1,0 +1,16 @@
+[{
+	"name": "Fetch Giftcard $100",
+	"detail": "$100 Giftcard to Fetch!",
+	"points": "5000",
+	"image": "https://www.fetchrewards.com/assets/images/logos/header-logo.png"
+},{
+	"name": "Doggo Treats",
+	"detail": "Funnyuns Are Their Favorite! I swear!",
+	"points": "1000",
+	"image": "https://image-resize.fetchrewards.com/brands/04263e91df6a7900c6f0031e32109ad51ab190eb.png"
+},{
+	"name": "Stardollars",
+	"detail": "Cup of Joe on Us!",
+	"points": "2000",
+	"image": "https://image-resize.fetchrewards.com/brands/338539916d6ef9587125cd26bdd2c1faa65f203a.jpeg"
+}]
