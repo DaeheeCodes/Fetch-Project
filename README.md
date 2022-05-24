@@ -15,11 +15,11 @@
     4) Remaining value is swapped with the "current points" and the loop repeats until the transaction cost reaches zero. the final iteration will post the negtaive value of the final transction.
     5) The total of user's points is updated since we have a negative value transaction adding up to the new total cost now.
 
-### This was acheived in the final requirement of having this done in a few hours (took me about 5-6 hours) so the CSS is messy and the functions are basic. But it is still very scalable using any of the database pulling modules like mongoose I used in my team's website starryfields.com.
+This was acheived in the final requirement of having this done in a few hours (took me about 5-6 hours) so the CSS is messy and the functions are basic. But it is still very scalable using any of the database pulling modules like mongoose I used in my team's website starryfields.com.
 
 
 ## How to navigate the project:
-    1) clone or download the whole folder. cd to folder and "npm run dev" in the root(node)
+    1) clone or download the whole folder. cd to root folder and "npm run dev" (nodeJS)
     2) "Your Total Remaining Points!" Shows the running user's total pulled from the json file in the public directory inside the "fetchrewards" folder.
     3) "View Your Points Log!" shows the sorted version of the point.json file sorted by its date. Try changing the values in the JSON Database!
     4) "Quick Buy" function will deduct the points listed in "productlist.json" database. and the transaction function that runs on click will post new data to "points.json" giving us a running total everytime its run.
