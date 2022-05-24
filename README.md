@@ -19,7 +19,7 @@ This was acheived in the final requirement of having this done in a few hours (t
 
 
 ## How to navigate the project:
-    1) clone or download the whole folder. cd to root folder and "npm run dev" (nodeJS)
+    1) clone or download the whole folder. cd to root folder and "npm run dev" on the terminal (nodeJS)
     2) "Your Total Remaining Points!" Shows the running user's total pulled from the json file in the public directory inside the "fetchrewards" folder.
     3) "View Your Points Log!" shows the sorted version of the point.json file sorted by its date. Try changing the values in the JSON Database!
     4) "Quick Buy" function will deduct the points listed in "productlist.json" database. and the transaction function that runs on click will post new data to "points.json" giving us a running total everytime its run.
